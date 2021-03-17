@@ -30,6 +30,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import GitHubSvg from '../assets/github.svg';
 import LinkedInSvg from '../assets/linkedin.svg';
+import ResumePng from '../assets/resume.png';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -273,6 +274,7 @@ const BasicTimeline = () => {
 					<div style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}>
 						<img src={GitHubSvg} height="100px" width="100px" />
 						<img src={LinkedInSvg} height="100px" width="100px" />
+						<img src={ResumePng} height="100px" width="100px" />
 					</div>
 				</Typography>
 			</Timeline>
