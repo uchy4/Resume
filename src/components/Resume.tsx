@@ -187,7 +187,7 @@ const BasicTimeline = () => {
 						</Typography>
 						<BlackDivider />
 						<List>
-							<li><b>Technologies:</b> JavaScript, TypeScript, Angular, React, NextJs, Express, Sass, SQL, .NET Core, .NET Framework, Entity Framework</li>
+							<li><b>Technologies:</b> JavaScript, TypeScript, Angular, React, NextJs, Express, Sass, SQL, .NET Core, .NET Framework, Entity Framework, CI/CD Pipeline, End to End Testing</li>
 							<li><b>Tools:</b> CLI, Azure Devops, Git, VS Code, Visual Studio</li>
 							<li>Overhauled and implemented rewrites for 3 different projects</li>
 							<li>Actively maintained and diagnosed lecagy code for 5 different projects</li>
@@ -423,7 +423,7 @@ const ComponentToPrint = React.forwardRef((_, ref: any) => {
 						</SyntaxHighlighter>
 					) : (
 							<Typography className="summary" component="div" variant="caption">
-								I have 3+ years experience as a full-stack developer with hands-on experience in front-end
+								I have 5+ years experience as a full-stack developer with hands-on experience in front-end
 								 interface design as well as code back-end logic implementation.
 								I excel in creating responsive user interface components created with React or Angular.
 								I am highly detail-oriented and as a result, proficient in translating designs &
@@ -485,3 +485,10 @@ const Resume = () => {
 };
 
 export default Resume;
+
+const MeIn30Secs = () => 
+<div>
+	My name is Josh
+	I am seeking a job as a software and web developer in front end or full stack technologies
+	I have 3+ years experience working with full stack technologies
+</div>

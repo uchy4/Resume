@@ -26,7 +26,9 @@ export const skills = {
         { skill: 7, name: "Git" },
         { skill: 8, name: "FlexBox" },
         { skill: 8, name: "Css Grid" },
-        { skill: 8, name: "Firebase" }
+        { skill: 8, name: "Firebase" },
+        { skill: 8, name: "CI/CD Pipeline" },
+        { skill: 8, name: "E2E Testing" }
     ],
     frameworks: [
 
